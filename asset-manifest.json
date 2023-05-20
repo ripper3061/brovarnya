@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/brovarnya/static/css/main.97b762c8.css",
-    "main.js": "/brovarnya/static/js/main.59b61adb.js",
+    "main.css": "/brovarnya/static/css/main.b58013fb.css",
+    "main.js": "/brovarnya/static/js/main.29d4d3d7.js",
     "static/media/hero.jpg": "/brovarnya/static/media/hero.d323d765efa034a08362.jpg",
+    "static/media/about1.jpg": "/brovarnya/static/media/about1.c2284aea2b768129b8bc.jpg",
+    "static/media/about2.jpg": "/brovarnya/static/media/about2.04bb13decb2c30e121be.jpg",
     "index.html": "/brovarnya/index.html",
-    "main.97b762c8.css.map": "/brovarnya/static/css/main.97b762c8.css.map",
-    "main.59b61adb.js.map": "/brovarnya/static/js/main.59b61adb.js.map"
+    "main.b58013fb.css.map": "/brovarnya/static/css/main.b58013fb.css.map",
+    "main.29d4d3d7.js.map": "/brovarnya/static/js/main.29d4d3d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b762c8.css",
-    "static/js/main.59b61adb.js"
+    "static/css/main.b58013fb.css",
+    "static/js/main.29d4d3d7.js"
   ]
 }
