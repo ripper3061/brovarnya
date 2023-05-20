@@ -1,3 +1,4 @@
+import { AboutUs } from './AboutUs/AboutUs';
 import { Header } from './Header/Header';
 import { Hero } from './Hero/Hero';
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <AboutUs />
       </main>
     </>
   );

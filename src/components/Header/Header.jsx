@@ -2,7 +2,6 @@ import {
   HeaderLayout,
   HeaderContainer,
   Logo,
-  LogoIcon,
   NavList,
   ListLink,
   ListItem,
@@ -10,14 +9,14 @@ import {
   HeaderButton,
 } from './Header.styled';
 
+import { LogoSvgComponent } from 'components/Logo/Logo';
+
 export const Header = () => {
   return (
     <HeaderLayout>
       <HeaderContainer>
         <Logo href="">
-          <LogoIcon width="66" height="66">
-            <use href="./images/symbol-defs.svg#Logo"></use>
-          </LogoIcon>
+          <LogoSvgComponent />
         </Logo>
         <nav>
           <NavList>

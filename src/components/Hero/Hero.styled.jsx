@@ -74,3 +74,41 @@ export const HeroText = styled.div`
 
   flex-grow: 1;
 `;
+
+export const SubTitle = styled.p`
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+
+  margin-bottom: 20px;
+
+  ::before {
+    content: '';
+    height: 1px;
+    width: 60px;
+    background: currentColor;
+    margin-right: 20px;
+  }
+`;
+
+export const HeroTitle = styled.h1`
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  margin-bottom: 20px;
+`;
+
+export const Text = styled.p`
+  color: #9da4bd;
+  max-width: 400px;
+`;

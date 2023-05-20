@@ -7,6 +7,9 @@ import {
   SocialListItem,
   ItemLink,
   HeroText,
+  SubTitle,
+  HeroTitle,
+  Text,
 } from './Hero.styled';
 
 export const Hero = () => {
@@ -37,16 +40,12 @@ export const Hero = () => {
         </Rotate>
         <div style={{ position: 'relative' }}>
           <HeroText>
-            <p lang="en" class="sub-title">
-              A hair salon for men in Kyiv
-            </p>
-            <h1 lang="en" class="hero-title">
-              BarberShop
-            </h1>
-            <p class="text">
+            <SubTitle lang="en">A hair salon for men in Kyiv</SubTitle>
+            <HeroTitle lang="en">BarberShop</HeroTitle>
+            <Text>
               Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
               и со вкусом.
-            </p>
+            </Text>
           </HeroText>
           <Slider />
         </div>
