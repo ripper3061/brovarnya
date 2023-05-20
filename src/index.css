@@ -7,9 +7,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--primary-text-color);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/* убирает 4px у картинок */
+img {
+  display: block;
+}
+
+.mySwiper {
+  width: 1073px;
+  height: 680px;
+}
+
+.swiper-pagination {
+  text-align: right;
+}
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 3px;
+  border-radius: 0;
+
+  background-color: #aaa;
+}
+.swiper-pagination-bullet:last-child {
+  margin-right: 20px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff6c00;
 }
